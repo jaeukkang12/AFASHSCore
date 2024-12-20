@@ -1,0 +1,8 @@
+name: AFASHS Core
+version: '1.0.0'
+main: com.github.jaeukkang12.afashscore.AfashsCore
+api-version: '1.20'
+author: jaeukkang12
+description: Core Plugin.
+
+commands:
