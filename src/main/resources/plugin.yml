@@ -1,5 +1,5 @@
 name: AFASHS Core
-version: '1.0.3'
+version: '1.0.4'
 main: com.github.jaeukkang12.afashscore.AfashsCore
 api-version: '1.20'
 author: jaeukkang12
