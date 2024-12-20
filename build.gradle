@@ -43,7 +43,12 @@ repositories {
         }
     }
 
-    tasks.withType(JavaCompile) {
-        options.encoding = 'UTF-8'
+    processResources {
+        def props = [version: version]
+        inputs.properties props
+        filteringCharset 'UTF-8'
+        filesMatching('plugin.yml') {
+            expand props
+        }
     }
 }
