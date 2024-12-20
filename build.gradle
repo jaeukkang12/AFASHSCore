@@ -6,6 +6,7 @@ group 'com.github.jaeukkang12'
 version '1.0.0'
 
 repositories {
+    google()
     mavenCentral()
     maven { url 'https://jitpack.io' }
 
