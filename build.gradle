@@ -1,9 +1,19 @@
 plugins {
     id 'java'
+    id 'maven-publish'
 }
 
-group 'com.github.jaeukkang12'
-version '1.0.2'
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'com.github.jaeukkang12'
+            artifactId = 'AFASHS-Core'
+            version = '1.0.3'
+
+            from components.java
+        }
+    }
+}
 
 repositories {
     google()
